@@ -5,6 +5,7 @@ namespace Catalog.API.Data
 {
     public class CatalogContext : ICatalogContext
     {
+        // IConfiguration interface is to be able to use configuration file. It must be dependency injected
         public CatalogContext(IConfiguration configuration)
         {
             /* 
